@@ -27,10 +27,10 @@ using System.Linq;
 using MIG.Config;
 
 // TODO: notes about ns naming conventions
-namespace MIG.Interfaces.Skelton
+namespace MIG.Interfaces.Example
 {
 
-    public class InterfaceExample : MigInterface
+    public class InterfaceSkelton : MigInterface
     {
 
         #region MigInterface API commands and events
@@ -58,7 +58,7 @@ namespace MIG.Interfaces.Skelton
 
         #region Lifecycle
 
-        public InterfaceExample()
+        public InterfaceSkelton()
         {
             modules = new List<InterfaceModule>();
             // manually add some fake modules

@@ -10,7 +10,7 @@
     </Gateway>
 </Gateways>
 <Interfaces>
-  <Interface Domain="Skelton.InterfaceExample" IsEnabled="true" AssemblyName="MIG-Interface.dll">
+  <Interface Domain="Example.InterfaceSkelton" IsEnabled="true" AssemblyName="MIG-Interface.dll">
     <Options />
   </Interface>
 </Interfaces>
